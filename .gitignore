@@ -1,0 +1,105 @@
+# NGOConnect++ AI
+# Git Ignore Configuration
+
+# Java / Maven
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+
+application-local.properties
+application-secret.properties
+application-prod.properties
+application-*.yml
+application-*.yaml
+
+# Environment / Secrets
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+
+secrets/
+credentials/
+private/
+
+# IDE
+
+.idea/
+*.iml
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.classpath
+.project
+.settings/
+
+# Logs
+
+*.log
+logs/
+
+# Node / React
+
+node_modules/
+dist/
+build/
+.npm
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+# Python / ML generated files
+
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Local databases
+
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage / Testing
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build / generated files
+out/
+bin/
